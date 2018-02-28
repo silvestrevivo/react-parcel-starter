@@ -1,12 +1,18 @@
 body{
+  padding: 0;
+  margin: 0;
   position: relative;
   height: 100vh;
   background-color: #222;
 }
 
-img {
+.container{
+  display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  color: #03d8fe;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
