@@ -1,8 +1,20 @@
 {
   "plugins": [
-    ["transform-class-properties", { "spec": true }],
-    ["transform-object-rest-spread"],
-    ["transform-runtime"]
+    [
+      "transform-class-properties",
+      {
+        "spec": true
+      }
+    ],
+    [
+      "transform-object-rest-spread"
+    ],
+    [
+      "transform-runtime"
+    ],
+    [
+      "react-hot-loader/babel"
+    ]
   ],
   "presets": [
     [
@@ -21,7 +33,11 @@
       ]
     },
     "test": {
-      "presets": ["env", "react", "stage-0"]
+      "presets": [
+        "env",
+        "react",
+        "stage-0"
+      ]
     }
   }
 }
