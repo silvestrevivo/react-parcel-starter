@@ -46,7 +46,7 @@ npm precommit
 
 * Node-sass, postcss, autoprefixer, postcss-modules, browserslist.
 
-* React, ReactDom, redux, react-redux, react-router-dom, prop-types, axios.
+* React, ReactDom, redux, react-redux, react-router-dom, prop-types, react-hot-loader, axios.
 
 * Classnames, Normalize.css
 
