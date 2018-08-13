@@ -1,4 +1,7 @@
 {
+  "presets": [
+    "react"
+  ],
   "plugins": [
     [
       "transform-class-properties",
@@ -15,29 +18,5 @@
     [
       "react-hot-loader/babel"
     ]
-  ],
-  "presets": [
-    [
-      "env",
-      {
-        "modules": false
-      }
-    ],
-    "react",
-    "stage-0"
-  ],
-  "env": {
-    "start": {
-      "presets": [
-        "react-hmre"
-      ]
-    },
-    "test": {
-      "presets": [
-        "env",
-        "react",
-        "stage-0"
-      ]
-    }
-  }
+  ]
 }
