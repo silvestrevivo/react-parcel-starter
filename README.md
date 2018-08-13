@@ -19,25 +19,33 @@ Ensure you have [ParcelJS][2] blunder globally:
 ```
 npm install -g parcel-bundler
 ```
+
 Download the repository and init the project:
 
 ```
+git clone https://github.com/silvestrevivo/react-parcel-starter.git
+cd react-parcel-starter
 npm install
 ```
+
 To work in development mode:
+
 ```
 npm start
 ```
 
 To send project to production:
+
 ```
 npm build
 ```
 
 To check ESlint previous commit using ***lint-staged***:
+
 ```
 npm precommit
 ```
+
 ## Modules installed
 
 * Babel, babel-core, babel-eslint, babel-plugin-transform-class-properties, babel-plugin-transform-object-rest-spread, babel-preset-env, babel-preset-react.
