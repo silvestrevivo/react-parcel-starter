@@ -1,8 +1,8 @@
 <div align="center">
   <img width="250" height="200"
     src="https://sandstorm.de/_Resources/Persistent/3285416e8503b2c8354c321bcd690cf550b8b2d3/React-Logo.svg">
-  <a href="https://github.com/webpack/webpack">
-    <img width="200" height="200"
+  <a href="https://parceljs.org/">
+    <img width="250" height="200"
       src="https://pbs.twimg.com/media/DcM9lLoVQAAnVSz.png">
   </a>
   <h1>React-Parcel Starter</h1>
